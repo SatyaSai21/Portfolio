@@ -1,0 +1,113 @@
+@media screen and (max-width: 1400px){
+    #Profile{
+        height: 63vh;
+        margin-bottom: 6rem;
+    }
+    .about_container,.about_container1{
+        flex-wrap:wrap;
+    }
+    /* section#projects{
+        height: 66vh;
+    } */
+
+}
+
+
+@media screen and (max-width: 600px ) {
+    #contact,footer{
+        height: 40vh;
+    }
+    #Profile{
+        height: 63vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+    .about_container,.about_container1,.contact_info_upper_container,.btn_container{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .contact_info_container{
+        margin: 0;
+    }
+    .contact_info_conatiner p,.navlinks li a{
+        font-size: 1rem;
+    }
+    .skill_sub_title{
+        font-size: 1.2rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .navlinks{
+        flex-direction: column;
+        gap: 0.3rem;
+        text-align: center;
+    }
+    .section_image{
+        width:auto;
+        height:46vh;
+        justify-content: center;
+    }
+    .section_text_p1{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .text_container{
+        text-align: justify;
+    }
+    /* section#projects{
+        height: 80vh;
+    } */
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+    #skills, .skills_details_container{
+        margin-top: 2rem;
+    }
+    #Profile .btn_container{
+        justify-content: center;
+    }
+    #Profile,.section-container
+    {
+        display: block;
+    }
+    .arrow{
+        display:none;
+    }
+    section,.section-container{
+        height:fit-content;
+    }
+    section{
+        margin:0 5%;
+    }
+    .section_image{
+        width:fit-content;
+        height:275px;
+        margin:0 auto 2rem;
+    }
+    .about_container,.about_container1{
+        margin-top: 0;
+    }
+    #contact {
+        height:27vh;
+    }
+    /* section#projects{
+        height: 76vh;
+    } */
+}

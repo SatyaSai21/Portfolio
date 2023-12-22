@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            Sai
+        </div>
+        <div>
+            <ul class="navlinks" >
+                <li ><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">
+            Sai
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul class="menulinks" >
+                    <li ><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="Profile">
+        <div class="section_image">
+            <img src="./assets/DSC_0004.JPG" alt="Satya Sai Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">
+                Hello ,I'm
+            </p>
+            <h1>
+                SatyaSai
+            </h1>
+            <p class="section_text_p2">
+                Data Scientist.
+            </p>
+            <div class="btn_container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/SatyaSaiKoyya_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/satya-sai-955ab1231/'">
+                <img src="./assets/github.png" alt="My GitHub Profile"
+                class="icon" onclick="location.href='https://github.com/SatyaSai21'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">
+            About Me
+        </h1>
+        <div class="section-container">
+            <div class="section_image">
+                <img src="./assets/DSC_0004.JPG" alt="Profile Picture" class="about_pic"/>
+            </div>
+            <div class="about_details_container">
+                <div class="about_container">
+                    <div class="details_container">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon"/>
+                        <h3>Domain</h3>
+                        <p>Data Science, Machine Learning, Web Development</p>
+                    </div>
+                    <div class="details_container">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Currently Pursuing Bachelor of Technology In Computer Science and Technology From IIEST,Shibpur</p>
+                    </div>
+                </div>
+                <div class="text_container">
+                    <p>
+                        I am a Data Science Enthusiasist And Machine Learning Engineer Along with Knowledge On Natural Language Processing and Deep Learning. In Search of an oppurtunity to Showcase my skills. As a Tech Enthusiasist I believe Being Updated with the New Techs and Continuously Working On them will lead to the Growth Of a Person In this Field. Hence I am constantly developing my skills and always open to new challenges and opportunities that allow me to grow professionally and personally.
+                        <br><br>My Education Details are as Follows :<br>
+                        I am a learning enthusiast and a passionate student at IIEST (Indian Institute of Engineering Science and Technology), Shibpur, an eminent institute of national importance with a NIRF ranking of 35 in 2023 as published by the Ministry of Education, Government of India; Pursuing Bachelors in Computer Science and technology. 
+                        <br><br>I am Willing to grab any oppurtunities provided and i ensure to work hard to meet the requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <section id="skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">
+            Skills
+        </h1>
+        <div class="skills_details_container">
+            <div class="about_container">
+                <div class="details_container">
+                    <h2 class="skill_sub_title">Web Development</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    <h3>Frontend Development:</h3>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                    <p>React Js</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    
+                                    <h3>Backend Development:</h3>
+                                    <p>PHP</p>
+                                    
+                                    <p>Node JS</p>
+                                    
+                                    <p>Express JS</p>
+                                   
+                                    <p>Git</p>
+                                    
+                                    <p>SQL</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details_container">
+                        <h2 class="skill_sub_title">Data Science</h2>
+                        <div class="article_container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    <h3>Programming Languages</h3>
+                                    <p>Python</p>
+                                    <p>C++</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    <h3>Mathematics</h3>
+                                    <p>Statistics</p>
+                                    <p>Calculus</p>
+                                    <p>Linear Algebra</p>
+                                    <p>Probability</p>
+                                    <p>Dimensionality Reduction</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    <h3>Data Analysis and Manipulation</h3>
+                                    <p>Pandas</p>
+                                    <p>Numpy</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                                <div>
+                                    <h3>Data Analysis and Visualization</h3>
+                                    <p>Power BI</p>
+                                    <p>Tableau</p>
+                                    <p>Matplotlib</p>
+                                    <p>Seaborn , Plotly</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_container1">
+                <div class="details_container">
+                    <h2 class="skill_sub_title">Machine Learning Algorithms</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                            <div>
+                                <h3>Supervised Learning</h3>
+                                <p>Linear Regression</p>
+                                <p>Logistic Regression</p>
+                                <p>KNN , SVM</p>
+                                <p>Naive Bayes</p>
+                                <p>Decision Trees</p>
+                                <p>Boosting Algorithms (AdaBoost)</p>
+                                <p>Bagging Algorithms (Random Forest)</p>
+                                <p> Ensemble Techniques (Stacking,Voting) </p>                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                            <div>
+                                <h3>Unsupervised Learning</h3>
+                                <p>Clustering (KMeans,DBSCAN)</p>
+                                <p>Dimensionality Reduction</p>
+                                <p>PCA</p>
+                                <p>SVD</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                            <div>
+                                <h3>Machine Learning Libraries</h3>
+                                <p>Scikit-Learn</p>
+                                <p>TensorFlow</p>
+                                <p>PyTorch</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="about_container1">
+                <div class="details_container">
+                    <h2 class="skill_sub_title">Deep Learning and NLP</h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                            <div>
+                                <h3>Deep Learning Algorithms </h3>
+                                <p>Multilayer Perceptrons (MLPs)</p>
+                                <p>Convolutional Neural Networks (CNNs)</p>
+                                <p>Autoencoders</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skill Level" class="icon"/>
+                            <div>
+                                <h3>Natural Language Processing</h3>
+                                <p>Text Representation ( OneHot Encoding, Bag of Words, N-grams, TF-IDF, Word2vec , Average word2vec)</p>
+                                <p>Recurrent Neural Networks (RNNs)</p>
+                                <p>Long Short Term Memory Networks (LSTMs)</p>
+                                <h4>Architectures</h4>
+                                <p>Transformer Architecture</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills_details_container">
+            <div class="about_container">
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./assets/Text-Summarization.png" alt="Project 1/ Text Summarization Project" class="project_img"/>
+                    </div>
+                    <h2 class="skill_sub_title project_title">Text Summarization Project</h2>
+                    <div class="btn_container">
+                        <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/SatyaSai21/Text-Sumarization-Project'">GitHub</button>
+                    </div>
+                </div>
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./assets/Book_Recommendation_Project.png" alt="Project 2/Book Recommendation System" class="project_img"/>
+                    </div>
+                    <h2 class="skill_sub_title project_title">Book Recommendation System</h2>
+                    <div class="btn_container">
+                        <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/SatyaSai21/book-recommendation-system'">GitHub</button>
+                    </div>
+                </div>
+                <div class="details_container color_container">
+                    <div class="article_container">
+                        <img src="./assets/project3.png" alt="Project 3/Student Examination Project" class="project_img"/>
+                    </div>
+                    <h2 class="skill_sub_title project_title">Student Examination Project</h2>
+                    <div class="btn_container">
+                        <button class="btn btn-color-2 project_btn" onclick="location.href='https://github.com/SatyaSai21/StudentExaminationProject'">GitHub</button>
+    
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_info_upper_container">
+            <div class="contact_info_container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact_icon mail_icon"/>
+                <p><a href="mailto:satya21.sai@gmail.com">satya21.sai@gmail.com</a></p>
+            </div>
+            <div class="contact_info_container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact_icon"/>
+                <p><a href="https://www.linkedin.com/in/satya-sai-955ab1231/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav_linls_container">
+                <ul class="navlinks" >
+                    <li ><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 SatyaSai. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!--
+</div>
+ -->
+<!-- <div class="Algo">
+<h2 style="text-align:left">Algorithms :</h2>
+<div class="abd">
+    <article>
+        <div >
+            <ul>
+                <li>
+                    iiiiiiiiiii
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+    </article>-->
